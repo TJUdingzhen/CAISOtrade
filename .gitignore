@@ -1,0 +1,78 @@
+# Git 忽略文件
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 虚拟环境
+venv/
+ENV/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# 环境变量（包含敏感信息）
+.env
+.env.local
+.env.production
+
+# 数据文件
+data/
+*.csv
+*.db
+*.sqlite
+*.sqlite3
+
+# 日志
+*.log
+logs/
+log/
+
+# 备份
+backups/
+*.backup
+*.bak
+
+# Docker
+.dockerignore
+
+# 临时文件
+tmp/
+temp/
+*.tmp
+
+# 证书和密钥
+*.pem
+*.key
+*.crt
+nginx/ssl/
+
+# 压缩包
+*.tar.gz
+*.zip
+*.rar
